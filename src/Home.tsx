@@ -4,28 +4,28 @@ function Home() {
           id: 1,
           name: 'Aryadne Fernanda Ronqui',
           softSkills: ['Empatia', 'Pró-atividade', 'Humildade'],
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+          imageSrc: './assets/images/aryadne.jpeg',
           imageAlt: 'Foto da Aryadne',
         },
         {
           id: 2,
           name: 'Carla Regina Hentschel',
           softSkills: ['Dedicada', 'Sincera', 'Trata as pessoas de forma igual'],
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+          imageSrc: './assets/images/carla.jpeg',
           imageAlt: 'Foto da Carla',
         },
         {
           id: 3,
           name: 'Pedro Henrique Catarina Nogueira',
           softSkills: ['Paciente', 'Capacidade de autocontrole', 'Persistente'],
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+          imageSrc: './assets/images/pedro.jpg',
           imageAlt: 'Foto do Pedro',
         },
         {
           id: 4,
           name: 'Emilly Diedoviec',
           softSkills: ['Inteligente', 'Capacidade de aprender rápido', 'Bem-humorada'],
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+          imageSrc: './assets/images/emilly.jpeg',
           imageAlt: 'Foto da Emilly',
         },
       ]
@@ -41,7 +41,7 @@ function Home() {
                   <img
                     src={pessoa.imageSrc}
                     alt={pessoa.imageAlt}
-                    className="h-full w-full object-cover object-center group-hover:opacity-75"
+                    className="w-72 h-72 object-cover object-center group-hover:opacity-75"
                   />
                 </div>
                 <h3 className="mt-4 text-lg text-gray-900">{pessoa.name}</h3>
